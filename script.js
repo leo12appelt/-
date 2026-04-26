@@ -6,7 +6,7 @@ function processada(a) {
     a = String(a)
     let resultado = a.replaceAll('.',',').replaceAll('*','X').replaceAll('/','÷');
     
-    return resultado;
+    return resultado == "67" ? "67🤚🖐️" : resultado;
 }
 
 //adiciona coisas no display
