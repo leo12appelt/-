@@ -29,7 +29,7 @@ function apagarCaractere() {
 }
 
 //salvar e colar
-let salvo;
+let salvo= '';
 function salvar() {
         !display ? salvo = '': salvo = eval(display);
         salvo = string(salvo)
