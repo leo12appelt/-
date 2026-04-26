@@ -82,7 +82,7 @@ button:hover{
   text-shadow: 0 0 5px currentColor;
     width: 180px;
     position: absolute;
-    top: 100%;
+    top: 95%;
     animation: rgb 3s linear infinite;
     opacity: 0.8;
 }
