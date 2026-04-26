@@ -6,7 +6,7 @@ function processada(a) {
     a = String(a)
     let resultado = a.replaceAll('.',',').replaceAll('*','X').replaceAll('/','÷');
     
-    return resultado == "67" ? "67🤚🖐️" : resultado;
+    return resultado;
 }
 
 //adiciona coisas no display
@@ -31,7 +31,7 @@ function apagarCaractere() {
 //salvar e colar
 let salvo;
 function salvar() {
-        salvo = eval(display);
+        !display ? salvo = '': salvo = eval(display);
         salvo = string(salvo)
 }
 function colar() {
