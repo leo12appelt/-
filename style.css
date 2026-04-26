@@ -1,0 +1,88 @@
+@keyframes rgb{
+    0%   {color:#800}
+    16%  {color:#880}
+    33%  {color:#080}
+    50%  {color:#088}
+    67%  {color:#008}
+    83%  {color:#808}
+    100% {color:#800}
+}
+.calculadora{
+    text-align: center;
+    background-color: #1a1717;
+    width: 300px;
+    height: 420px;
+    margin: 1.5%;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+  transform: translateX(-50%);
+}
+button{
+    width: 21%;
+    height: 15%;
+    margin: 0.5%;
+    border-radius: 20%;
+    background-color: #a9a5a5ea;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    transition: 0.2s ease;
+}
+input{
+    height: 10%;
+    width: 83%;
+    margin: 1%;
+    margin-top: 5%;
+    background-color: rgb(147, 153, 147);
+    color: #000000;
+    border-radius: 2px;
+    border: #ffffff solid 3px;
+    text-align: end;
+    font-size: medium;
+}
+body{
+    height: 90vh;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://wallpapers.com/images/featured/cidade-a-noite-2ikcyapa8o2dtqbf.jpg);
+}
+.calculo{
+    background-color: #5d5c5c;
+}
+.resultado{
+    background-color: rgb(73, 152, 33);
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #bbb7b7fc;
+    color: #333;
+}
+.limpar{
+    background-color: #b03636;
+}
+.calculo:hover{
+    background-color: #6f6e6e;
+}
+.resultado:hover{
+    background-color: #5baa33;
+}
+.limpar:hover{
+    background-color: #c24848;
+}
+.credito{
+    right: 3%;
+    margin: 0;
+    font-weight: bold;
+  text-shadow: 0 0 5px currentColor;
+    width: 180px;
+    position: absolute;
+    top: 100%;
+    animation: rgb 3s linear infinite;
+    opacity: 0.8;
+}
