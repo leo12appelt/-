@@ -31,7 +31,7 @@ function apagarCaractere() {
 //salvar e colar
 let salvo= '';
 function salvar() {
-        !display ? salvo = '': salvo = eval(display);
+        display == undefined ? salvo = '': salvo = eval(display);
         salvo = string(salvo)
 }
 function colar() {
