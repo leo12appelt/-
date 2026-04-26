@@ -35,7 +35,7 @@ function salvar() {
         salvo = string(salvo)
 }
 function colar() {
-    add(salvo);
+    salvo == undefined ? add(""):add(salvo);
 }
 
 //calcula e exibe
